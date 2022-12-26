@@ -1,0 +1,36 @@
+.body_background {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    gap: 1rem;
+}
+
+.body_background > button {
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    border: none;
+    background-color: red;
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+.body_background >button:hover{
+    background-color: brown;
+}
+
+.body_body {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+@media screen and (max-width:425px) {
+    .body_background > button {
+        font-size: 0.8rem;
+    }
+
+    .body_body {
+        padding-top: 2rem;
+    }
+}
