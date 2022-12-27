@@ -56,3 +56,26 @@ textarea {
     padding: 0.5rem 1rem;
     margin: 1rem 0rem;
 }
+
+.footer {
+    padding: 1rem 0rem;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media screen and (max-width:425px) {
+    .input_header {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .input_label {
+        font-size: 1rem;
+    }
+
+    .footer {
+        font-size: 0.8rem;
+    }
+}
